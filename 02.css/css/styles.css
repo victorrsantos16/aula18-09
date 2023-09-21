@@ -237,3 +237,212 @@ background-color: #222;
     margin: 5px 10px 15px 20px;
     background-color: #666;
 }
+/* 31 -  */
+.box-model{
+    margin: 20px;
+    background-color: #00eaff;
+    padding: 15px 25px;
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+/* 32 - Desafio */
+#box-model-desafio{
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid blue;
+    background-color: #a5f;
+    outline: 5px solid yellow;
+}
+.desafio-title{
+    background-color: white;
+    color:red;
+    border: 2px;
+}
+/* 33 -  */
+.text-aligned{
+    text-align: right;
+}
+.container-center{
+    text-align: center;
+    background-color: #17ac55;
+    width: 300px;
+    border:3px solid blue;
+    margin-left: 100px;
+}
+
+/* 34 */
+.underline{
+    text-decoration: underline;
+}
+.line.trough{
+    text-decoration: line-through;
+}
+.remover-underline{
+    text-decoration: none;
+    color:red
+}
+/* 35 */
+.upper{
+text-transform: uppercase;
+}
+.lower{
+text-transform: lowercase;
+}
+/* 36 */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* 37 fontes */
+.serif{
+font-family: georgia;
+}
+.sans-serif{
+font-family: helvetica ;
+}
+.monospace{
+font-family: "courier new";
+}
+.cursive{
+font-family:cursive;
+}
+.fantasy{
+font-family: fantasy;
+}
+/* 38  */
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+/* 39 */
+.thin, .bold, .bolden{
+    font-family: helvetica;
+}
+.thin{
+font-weight: 100;
+}
+.bold{
+font-weight: 600;
+}
+.bolden{
+    font-weight: 900;
+}
+/* 40 */
+.small{
+font-size: 16px;
+}
+.big{
+font-size: 78px;
+}
+/* 41 */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    background-color: #333;
+    margin: 10px;
+    display:block;
+}
+/* 42 */
+.invisible{
+    display:none;
+}
+/* 43 */
+.static{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: green
+}
+/* 44 position relative*/
+.relative{
+    position: relative;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+/* 45  */
+.absolute{
+    position: absolute;
+    background-color: orange;
+    color:#fff;
+    width:100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+/* 46 */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+}
+.absolute-1,
+.absolute-2{
+width: 50px;
+height: 50px;
+background-color: #444;
+position: absolute;
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+/* 47 - fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: solid red;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(39, 192, 98);
+    border: solid rgb(212, 26, 172);
+    position: sticky;
+    top: 10px;
+    right: 100px; 
+}
+/* 49 */
+.absolute-3, .absolute-4, .absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #55a398;
+    position: absolute;
+}
+.absolute-3{
+    top:0;
+    left:0;
+}
+.absolute-4{
+    top:10px;
+    left:10px;
+    background-color: #17ac55;
+    z-index: 2;
+}
+.absolute-5{
+    top:40px;
+    left:40px;
+    background-color: #a5f;
+    z-index: 3;
+}
